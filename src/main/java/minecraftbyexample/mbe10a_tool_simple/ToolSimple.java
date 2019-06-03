@@ -1,4 +1,4 @@
-package minecraftbyexample.mbe10_tool_simple;
+package minecraftbyexample.mbe10a_tool_simple;
 
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.creativetab.CreativeTabs;

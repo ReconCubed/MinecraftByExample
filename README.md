@@ -152,8 +152,11 @@ yooksi,
 Brandon3035,
 twrightsman (greekphysique),
 Nephroid,
-Herbix, and
-Shadowfacts
+Herbix, 
+Shadowfacts, and
+Daniel Miller and Andrew Vaccaro ([MinecraftU][MinecraftU])
+
+[MinecraftU]: https://github.com/MinecraftU/mcu-curriculum
 
 ## Licence Info:
 This is free and unencumbered software released into the public domain.

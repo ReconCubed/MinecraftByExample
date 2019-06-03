@@ -1,4 +1,4 @@
-package minecraftbyexample.mbe10_tool_simple;
+package minecraftbyexample.mbe10a_tool_simple;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
@@ -20,7 +20,7 @@ public class StartupClientOnly
 {
   public static void preInitClientOnly()
   {
-    ModelResourceLocation itemBlockModelResourceLocation = new ModelResourceLocation("minecraftbyexample:mbe10_tool_simple", "inventory");
+    ModelResourceLocation itemBlockModelResourceLocation = new ModelResourceLocation("minecraftbyexample:mbe10a_tool_simple", "inventory");
     final int DEFAULT_ITEM_SUBTYPE = 0;
     ModelLoader.setCustomModelResourceLocation(StartupCommon.toolSimple, DEFAULT_ITEM_SUBTYPE, itemBlockModelResourceLocation);
   }
