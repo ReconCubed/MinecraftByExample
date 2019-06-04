@@ -1,7 +1,4 @@
-package minecraftbyexample.mbe09_ore_spawning;
-
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraftforge.client.model.ModelLoader;
+package minecraftbyexample.mbe80_world_generation;
 
 /**
  * @author Nephroid

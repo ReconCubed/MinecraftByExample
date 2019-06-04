@@ -1,4 +1,4 @@
-package minecraftbyexample.mbe09_ore_spawning;
+package minecraftbyexample.mbe80_world_generation;
 
 import net.minecraft.block.state.pattern.BlockMatcher;
 import net.minecraft.init.Blocks;

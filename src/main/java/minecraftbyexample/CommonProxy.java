@@ -25,7 +25,7 @@ public abstract class CommonProxy {
     minecraftbyexample.mbe06_redstone.StartupCommon.preInitCommon();
     minecraftbyexample.mbe07_block_behavior.StartupCommon.preInitCommon();
     minecraftbyexample.mbe08_creative_tab.StartupCommon.preInitCommon();
-    minecraftbyexample.mbe09_ore_spawning.StartupCommon.preInitCommon();
+    minecraftbyexample.mbe80_world_generation.StartupCommon.preInitCommon();
     minecraftbyexample.mbe10_item_simple.StartupCommon.preInitCommon();
     minecraftbyexample.mbe10a_tool_simple.StartupCommon.preInitCommon();
     minecraftbyexample.mbe11_item_variants.StartupCommon.preInitCommon();
@@ -61,7 +61,7 @@ public abstract class CommonProxy {
     minecraftbyexample.mbe06_redstone.StartupCommon.initCommon();
     minecraftbyexample.mbe07_block_behavior.StartupCommon.initCommon();
     minecraftbyexample.mbe08_creative_tab.StartupCommon.initCommon();
-    minecraftbyexample.mbe09_ore_spawning.StartupCommon.initCommon();
+    minecraftbyexample.mbe80_world_generation.StartupCommon.initCommon();
     minecraftbyexample.mbe10_item_simple.StartupCommon.initCommon();
     minecraftbyexample.mbe10a_tool_simple.StartupCommon.initCommon();
     minecraftbyexample.mbe11_item_variants.StartupCommon.initCommon();
@@ -96,7 +96,7 @@ public abstract class CommonProxy {
     minecraftbyexample.mbe06_redstone.StartupCommon.postInitCommon();
     minecraftbyexample.mbe07_block_behavior.StartupCommon.postInitCommon();
     minecraftbyexample.mbe08_creative_tab.StartupCommon.postInitCommon();
-    minecraftbyexample.mbe09_ore_spawning.StartupCommon.postInitCommon();
+    minecraftbyexample.mbe80_world_generation.StartupCommon.postInitCommon();
     minecraftbyexample.mbe10_item_simple.StartupCommon.postInitCommon();
     minecraftbyexample.mbe10a_tool_simple.StartupCommon.postInitCommon();
     minecraftbyexample.mbe11_item_variants.StartupCommon.postInitCommon();

@@ -1,18 +1,6 @@
-package minecraftbyexample.mbe09_ore_spawning;
+package minecraftbyexample.mbe80_world_generation;
 
-import minecraftbyexample.mbe08_creative_tab.AllMbeItemsTab;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockHardenedClay;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemSword;
-import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 
 /**
  * User: The Grey Ghost

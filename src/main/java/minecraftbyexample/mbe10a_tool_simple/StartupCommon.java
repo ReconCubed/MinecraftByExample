@@ -39,9 +39,10 @@ public class StartupCommon
     final Item.ToolMaterial TOOL_MATERIAL = Item.ToolMaterial.STONE;
     // to define your own tool material:
     // final Item.ToolMaterial TOOL_MATERIAL = EnumHelper.addToolMaterial("TOOL_MATERIAL", 3, 1561, 12.0f, 3.0f, 22);
-    toolSimple = (ToolSimple)(new ToolSimple(TOOL_MATERIAL));
-    toolSimple.setUnlocalizedName("mbe10_tool_simple_unlocalised_name");
-    toolSimple.setRegistryName("mbe10_tool_simple_registry_name");
+    //  i.e. addToolMaterial(String name, int harvestLevel, int maxUses, float efficiency, float damage, int enchantability)
+    toolSimple = new ToolSimple(TOOL_MATERIAL);
+    toolSimple.setUnlocalizedName("mbe10a_tool_simple_unlocalised_name");
+    toolSimple.setRegistryName("mbe10a_tool_simple_registry_name");
     ForgeRegistries.ITEMS.register(toolSimple);
   }
 
