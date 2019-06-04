@@ -1,4 +1,4 @@
-MinecraftByExample [1.12.2]
+MinecraftByExample [1.13.2]
 ==================
 The purpose of MinecraftByExample is to give simple working examples of the important concepts in Minecraft and Forge. If you're anything like me, a good code example is worth several screens worth of waffling explanation, and can very quickly explain the key concepts.  I also find it much easier to adapt and debug something that already works, than to have to synthesize something from scratch and spend hours trying to discover the missing bit of information I didn't know about.
 
@@ -20,6 +20,7 @@ If you want more information and explanatory text about the concepts, the follow
  - MBE for Forge 1.10.2: [1-10-2final][version1-10-2]
  - MBE for Forge 1.11: [1-11final][version1-11]
  - MBE for Forge 1.11.2: [1-11-2final][version1-11-2]
+ - MBE for Forge 1.12.2: [1-12-2final][version1-12-2]
 
 ##List of examples
 ### Blocks
@@ -145,6 +146,7 @@ Check out [this video][forge_installation] for more help installing Forge.
 [version1-10-2]: https://github.com/TheGreyGhost/MinecraftByExample/tree/1-10-2final
 [version1-11]: https://github.com/TheGreyGhost/MinecraftByExample/tree/1-11-final
 [version1-11-2]: https://github.com/TheGreyGhost/MinecraftByExample/tree/1-11-2-final
+[version1-12-2]: https://github.com/TheGreyGhost/MinecraftByExample/tree/1-12-2-final
 
 With thanks to these helpful folks:
 alvaropp, 
