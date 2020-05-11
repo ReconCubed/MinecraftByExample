@@ -1,6 +1,5 @@
 package minecraftbyexample;
 
-import minecraftbyexample.testingarea.container.ContainerTypeTest;
 import minecraftbyexample.usefultools.debugging.ForgeLoggerTweaker;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -85,6 +84,9 @@ public class MinecraftByExample {
     // * FMLClientSetupEvent or FMLDedicatedServerSetupEvent
     // * ModelRegistryEvent
     // * Other ModLifecycleEvents such as InterModEnqueueEvent, InterModProcessEvent
+
+// ModelBakeEvent
+
     // Everything else: the MinecraftForge.EVENT_BUS
 
     MOD_EVENT_BUS.register(minecraftbyexample.mbe01_block_simple.StartupClientOnly.class);
@@ -95,6 +97,12 @@ public class MinecraftByExample {
 
     MOD_EVENT_BUS.register(minecraftbyexample.mbe03_block_variants.StartupClientOnly.class);
     MOD_EVENT_BUS.register(minecraftbyexample.mbe03_block_variants.StartupCommon.class);
+
+    MOD_EVENT_BUS.register(minecraftbyexample.mbe04_block_dynamic_block_models.StartupClientOnly.class);
+    MOD_EVENT_BUS.register(minecraftbyexample.mbe04_block_dynamic_block_models.StartupCommon.class);
+
+    MOD_EVENT_BUS.register(minecraftbyexample.mbe05_block_advanced_models.StartupClientOnly.class);
+    MOD_EVENT_BUS.register(minecraftbyexample.mbe05_block_advanced_models.StartupCommon.class);
 
     MOD_EVENT_BUS.register(minecraftbyexample.mbe10_item_simple.StartupClientOnly.class);
     MOD_EVENT_BUS.register(minecraftbyexample.mbe10_item_simple.StartupCommon.class);
@@ -135,9 +143,5 @@ public class MinecraftByExample {
     //----------------
     MOD_EVENT_BUS.register(minecraftbyexample.usefultools.debugging.StartupClientOnly.class);
     MOD_EVENT_BUS.register(minecraftbyexample.usefultools.debugging.StartupCommon.class);
-
-    containerTypeTest = new ContainerTypeTest(); //todo remove
   }
-
-  static private ContainerTypeTest containerTypeTest;
 }

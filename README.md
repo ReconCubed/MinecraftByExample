@@ -14,12 +14,14 @@ Each example is split up to be totally independent of all the others.  The only 
 
 If you want more information and explanatory text about the concepts, the following links might be useful:
 
-  - [The Official Forge documentation][forgedocs]
+  - [The Official Forge documentation][forgedocs] (parts of it are rather outdated but on the whole still very useful starting reference)
   - [Guide to how Minecraft works][greyminecraftcoder] (still being updated from 1.8 to 1.14.4+)
   - [Fabric Wiki][fabricwiki] (some of it is specific to the Fabric API, but a lot of useful general info too) 
   - [Forge modder support forum][Forge forum]
   - [McJty tutorials][McJty]
   - [Mr Crayfish Furniture Mod (lots of examples)](https://github.com/MrCrayfish/MrCrayfishFurnitureMod)
+  - [Cadiboo's example mod](https://github.com/Cadiboo/Example-Mod) some great tutorials for when you're starting out
+  
 #### For earlier versions, see the relevant GitHub branch:
  - MBE for Forge 1.8: [1-8final][version1-8]
  - MBE for Forge 1.8.9: [1-8-9final][version1-8-9]
@@ -39,9 +41,11 @@ If you use IntelliJ, you might find these [xml mapping files][mapfiles] useful t
 ### Blocks
   - [MBE01][01] - a simple cube
   - [MBE02][02] - a block with a more complicated shape
-  - [MBE03][03] - a block (coloured signpost) with multiple variants- four colours, can be placed facing in four directions
-  - X [MBE04][04] - a camouflage ("secret door") block which dynamically changes its appearance to match adjacent blocks - uses IBlockModel.getQuads() and onModelBakeEvent() 
-  - X [MBE05][05] - a 3D web which joins to neighbours in all six directions - uses IBlockModel.getQuads() and ICustomModelLoader
+  - [MBE03][03] - two types of blocks which vary their appearance / shape:<br>
+        a block (coloured signpost) with multiple variants- four colours, can be placed facing in four directions<br>
+        a block (3D Web) with multiple parts (multipart) similar to a vanilla fence.
+  - [MBE04][04] - a camouflage ("secret door") block which dynamically changes its appearance to match adjacent blocks - uses IBlockModel.getQuads(), ModelBakeEvent, IForgeBakedModel and IModelData  
+  - [MBE05][05] - multilayer block (lantern block with transparent glass) with animated flame texture
   - X [MBE06][06] - several different types of block which use redstone
   - [MBE08][08] - how to add a creative tab for organising your custom blocks / items
 
@@ -50,7 +54,6 @@ If you use IntelliJ, you might find these [xml mapping files][mapfiles] useful t
   - [MBE11][11] - an item with multiple variants - rendered using multiple models and multiple layers
   - [MBE12][12] - an item that stores extra information in NBT, also illustrates the "in use" animation similar to drawing a bow
   - X [MBE13][13] - customise Mining behaviour of Blocks and Items - several test classes that show how mining works
-  - X [MBE14][14] - an interactive helper tool to adjust the ItemCameraTransforms for your custom item
   - X [MBE15][15] - a chessboard item with 1 - 64 pieces; uses ItemOverrideList.handleItemState(), IBlockModel.getQuads() and onModelBakeEvent()
 
 ### TileEntities
